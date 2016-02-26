@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="2ff1aeeb-a9c5-4013-846d-4e91d04926c1" name="UMLClassDiagram1" linkedPackageId="a054337e-e4c9-4a42-be74-fbf4f7ff5288" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="fbf3d29b-4d9b-498f-aa32-6cc0f0075f88">
+      <profileInstance Id="0c5cccc1-058d-4c4e-aef1-3c4f7264a6d4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a03cc0b7-febc-43af-ba36-a5f987a0e9e7">
+      <profileInstance Id="2b58c069-9972-4416-a880-cfca786f0cbd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7d1471c3-1710-485d-8a84-d6bf29aec202" name="Fan" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78f22781-63c2-4474-8069-2ec70be251a6" />
+        <ownedAttributesInternal>
+          <property Id="10d80e05-3a6b-4f36-8270-e993a5db8dff" name="speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5716dfce-359b-40ef-9438-25d6d8feca3f" />
+          </property>
+          <property Id="fbf711a5-d48d-4917-9d6a-77b50c87f06c" name="on/off" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ceb5f1e8-15fe-44f9-97b2-36c312ff9ab2" />
+          </property>
+          <property Id="7c608088-3fb6-4f5e-a554-d922d9016983" name="radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cefd4e70-adbd-4bfc-ae2a-94c0309ad6ee" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b20777a4-abba-47c8-aeaa-74b686af21e1" name="change speed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a7a8b54b-9d1c-4f81-bcee-b3f7423c021d" />
+          </operation>
+          <operation Id="6f43b6dc-86b8-4f72-957d-87c35c29bca7" name="turn on/off" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="22643983-cfb2-445c-a4fb-67d39db1ee68" />
+          </operation>
+          <operation Id="cf536a35-56af-4c39-8803-bda76c1c0f26" name="change radius" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c72f3c37-ff8e-4c86-a58f-3b08ef6c0943" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="a054337e-e4c9-4a42-be74-fbf4f7ff5288" name="ModelingProject1">
+    <elementDefinition Id="fd1941f1-5455-4811-97a1-76ce3bf02c35" />
+  </package>
+</logicalClassDesignerModel>
