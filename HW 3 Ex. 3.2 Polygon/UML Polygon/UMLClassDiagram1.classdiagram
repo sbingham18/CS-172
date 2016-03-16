@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="aec95501-ff61-46b9-bb7a-2fe852694a36" name="UMLClassDiagram1" linkedPackageId="94446b96-e530-4233-8e83-1cba67601080" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c3a4fc51-0b55-4592-8bdb-ee665c623e2b">
+      <profileInstance Id="05eccb2c-cebf-4bfd-be0e-dce191120df4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d8e17236-efb8-40a4-acce-58248a1797c4">
+      <profileInstance Id="c60a1b48-6086-4a6f-b891-7e4532f710da" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f2913b8d-5399-458a-a2d0-28624f64b527" name="Regular Polygon" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1152a2c3-dabf-40f0-a01d-8b4b755d722e" />
+        <ownedAttributesInternal>
+          <property Id="8d6b90e5-053b-4b8d-90f8-a6774d897e8d" name="n" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4747bf03-2425-4102-a132-99934ec69abf" />
+          </property>
+          <property Id="bc69097d-08be-4ee0-993d-5c05da3d8189" name="side" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb9c8191-a38e-439f-9308-f1859f062b6d" />
+          </property>
+          <property Id="72a644b0-e774-48e6-9998-66eb695dd6e2" name="x" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fb32eea7-5d69-4d39-b3fe-f42c1ee74d24" />
+          </property>
+          <property Id="04e356a1-c46a-4301-83eb-1215da878114" name="y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2aadf417-3346-4ff1-9bdd-1230892eadf5" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="114d3099-38d1-44b0-92fa-3ecae919f36c" name="RegularPolygon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="43913190-8c46-45e4-b86b-fa1f4a587422" />
+          </operation>
+          <operation Id="5d6b337c-3da8-434e-bb3f-b68149db51d3" name="RegularPolygon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0ed98342-d818-40ef-b628-17bee1965f24" />
+          </operation>
+          <operation Id="1a3d0829-ea3d-4261-adc6-96202951fc2c" name="RegularPolygon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4b1de937-cc11-4684-a65e-6b616e422db0" />
+          </operation>
+          <operation Id="1b597af5-9de6-4617-a070-4a77da0cd145" name="setn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c99ef5f8-b2fa-4e62-8b3a-8a7cd7b595c1" />
+          </operation>
+          <operation Id="47ea674a-b3b5-4771-824a-180d4cbbc0f5" name="getn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ae32b7e8-ffa3-445d-9f73-4f4c5c83cbba" />
+          </operation>
+          <operation Id="8ca76005-af04-4fc4-9df9-5210d7f2c222" name="setside" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="64d3f952-04d6-4394-86d2-fd2b154403fe" />
+          </operation>
+          <operation Id="7e858d38-7c7a-48bc-a921-677d86e53c18" name="getside" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6008a84d-3cb0-4c03-bf01-8a523908b25c" />
+          </operation>
+          <operation Id="774ba9c5-5bf8-4c2f-b91d-551a7637ab42" name="setx" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="80e67900-5fe8-4e1c-894a-b2c48cfc1f07" />
+          </operation>
+          <operation Id="7ba76062-067b-457b-80a2-5798a2dade34" name="getx" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="76476cd6-5e4c-4779-be4b-1ce8b3625dbe" />
+          </operation>
+          <operation Id="c1d3a4c3-9f31-4a07-8082-a2bf3f1e7afa" name="sety" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4151ed2d-fec7-4b2e-81c4-2f1a164532ec" />
+          </operation>
+          <operation Id="8477debd-cb63-4dcc-a400-bc7058486cdf" name="gety" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d0523407-3e8c-4341-a546-7fd2afdd62cd" />
+          </operation>
+          <operation Id="3ed84297-001e-4f14-9af5-6e9777f6ce22" name="getArea" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ebc89606-44e2-4a6a-8995-23c2ed0fab6a" />
+          </operation>
+          <operation Id="b2d30b70-5966-4e57-aea3-ef27375c3a9a" name="getPerimeter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c9e86ab-8878-4ff3-a196-25df52f00e86" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="94446b96-e530-4233-8e83-1cba67601080" name="UML Polygon">
+    <elementDefinition Id="af61ed5c-b967-4e2b-a3c3-3d56c19a3b68" />
+  </package>
+</logicalClassDesignerModel>
