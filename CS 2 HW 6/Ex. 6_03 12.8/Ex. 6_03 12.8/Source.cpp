@@ -9,7 +9,7 @@
 using namespace std;
 int main()
 {
-	vector<int> intVector;
+	vector<int> intVector; // Joseph: using the std::vector here instead of yours. And you didn't implement your vector
 	for (int i = 0; i < 10; i++) // store numbers 1 - 10 to the vector
 	{
 		intVector.push_back(i + 1);

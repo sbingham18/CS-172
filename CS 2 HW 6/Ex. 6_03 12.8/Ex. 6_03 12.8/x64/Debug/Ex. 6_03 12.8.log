@@ -1,0 +1,40 @@
+﻿Build started 4/28/2016 1:09:23 PM.
+     1>Project "C:\Users\jflinn18\Documents\GitHub\sbingham18\CS-172\CS 2 HW 6\Ex. 6_03 12.8\Ex. 6_03 12.8\Ex. 6_03 12.8.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(18): error C2365: 'vector<T>::size': redefinition; previous definition was 'data member'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<T>::size'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(23): note: see reference to class template instantiation 'vector<T>' being compiled
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(12): error C2872: 'vector': ambiguous symbol
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(9): note: could be 'vector'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(678): note: or       'std::vector'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(18): error C2207: 'vector<T>::size': a member of a class template cannot acquire a function type
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(12): note: see reference to class template instantiation 'vector<int>' being compiled
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(18): error C2365: 'vector<int>::size': redefinition; previous definition was 'data member'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<int>::size'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(18): error C2248: 'vector<int>::size': cannot access private member declared in class 'vector<int>'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<int>::size'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(18): error C2064: term does not evaluate to a function taking 0 arguments
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(20): error C2676: binary '[': 'vector<int>' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(22): error C2872: 'vector': ambiguous symbol
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(9): note: could be 'vector'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(678): note: or       'std::vector'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(18): error C2365: 'vector<std::string>::size': redefinition; previous definition was 'data member'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<std::string>::size'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(29): error C2248: 'vector<std::string>::size': cannot access private member declared in class 'vector<std::string>'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<std::string>::size'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(29): error C2064: term does not evaluate to a function taking 0 arguments
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(31): error C2676: binary '[': 'vector<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(34): error C2872: 'vector': ambiguous symbol
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(9): note: could be 'vector'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(678): note: or       'std::vector'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(36): error C2676: binary '[': 'vector<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(38): error C2248: 'vector<std::string>::size': cannot access private member declared in class 'vector<std::string>'
+         c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\vector.h(11): note: see declaration of 'vector<std::string>::size'
+     1>c:\users\jflinn18\documents\github\sbingham18\cs-172\cs 2 hw 6\ex. 6_03 12.8\ex. 6_03 12.8\source.cpp(38): error C2064: term does not evaluate to a function taking 0 arguments
+     1>Done Building Project "C:\Users\jflinn18\Documents\GitHub\sbingham18\CS-172\CS 2 HW 6\Ex. 6_03 12.8\Ex. 6_03 12.8\Ex. 6_03 12.8.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
