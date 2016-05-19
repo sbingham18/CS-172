@@ -1,0 +1,5 @@
+City Name: Boring 
+Median Home Value: $298,000
+Interest Rate: 1.6%
+Loan Amount: $250000
+It will cost you: $1217.21 per month to pay off the loan in 20 years

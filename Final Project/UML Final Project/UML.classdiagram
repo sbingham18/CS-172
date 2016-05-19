@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e8cc54c2-3f30-4ebb-a3bd-6403571392e8" name="UML" linkedPackageId="af4faf29-80eb-45b4-9673-7decee3bf932" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="87bf7c63-12a3-44c0-a81b-99c6f82b423d">
+      <profileInstance Id="a9a28255-b16c-4939-bdf8-5e752c329574" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0d6fb1e0-6293-4215-ba45-15fbe9934f51">
+      <profileInstance Id="6db7e070-b4fa-4261-ac24-c4331ab3b60e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d2a9b1b0-2365-4117-b21e-08c2449ccd51" name="Seattle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d8e35616-576d-4f52-99ee-1376c976b273" />
+        <ownedAttributesInternal>
+          <property Id="22193fed-463c-4601-94e8-1995f2d7d94c" name="double interestrate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e7b0be3-00ae-473f-8ed9-cdaa0f506a63" />
+          </property>
+          <property Id="bc67b6a9-8f00-494a-831a-df96bf11273a" name="double loan" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0dd45534-ee91-4987-94f2-c85596899a4c" />
+          </property>
+          <property Id="726d5c30-2c34-4401-b2c2-e6ee0539358b" name="int numyears" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dc05dad5-9dae-4cb7-a7e2-35880829333d" />
+          </property>
+          <property Id="98561b99-9860-44c4-b891-bfe5d396a17d" name="double monthlypayment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6f7e8b93-769a-40e6-9eed-5be8ecadd704" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d36c5ac5-81e7-4bc9-917a-f488c9e22341" name="Seattle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f8422658-3ce9-47eb-893b-c6a31cb0e656" />
+          </operation>
+          <operation Id="fe01f7c9-93e1-462d-a9de-331513879ccb" name="void setinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e0d9beae-1002-442d-a92f-32a051568957" />
+          </operation>
+          <operation Id="9c7e1e96-6c2b-4ac3-9a9f-53e46c3dbbbc" name="double getinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="177630a5-9c41-4327-961b-131bae38861e" />
+          </operation>
+          <operation Id="2b013215-c0ce-4e94-9e19-ea7702d5f229" name="double calculatemonthlypayment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c9e44828-f8cc-4ae7-9742-1a73fdd43301" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4055fd86-c5a1-4c16-94e9-34f8e2775a8c" name="Boring" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="09afc02b-006e-47e9-8eda-a1469f1a82a8" />
+        <ownedAttributesInternal>
+          <property Id="64014d62-5a83-4e8e-a85f-611af012810b" name="double interestrate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d7600cf6-7fe5-43c1-bb12-965bbfb4603e" />
+          </property>
+          <property Id="0ee6ab1b-bb30-4288-9138-130950a58f34" name="double loan" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a2b56ba8-0699-47be-bc76-7be4bbe0e894" />
+          </property>
+          <property Id="6e6d8932-8d0e-4595-945a-e6a663a46e79" name="int numyears" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9f4165df-ddc8-4e9b-8b42-12ec717f227d" />
+          </property>
+          <property Id="5a15599e-d48b-4853-9a44-b52fd5118cfd" name="double monthlypayment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c13dcf3a-b558-4912-b2fb-a6a0d3342ea6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="615c2039-ed00-4f06-a691-e28812728bb8" name="Seattle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8964bbb7-675e-4be4-bda0-958fbc593613" />
+          </operation>
+          <operation Id="9a4043d6-41be-47fb-85d4-fcdcea46bcd7" name="void setinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bdd6c75b-1d8c-4a56-bdf0-61931ad51518" />
+          </operation>
+          <operation Id="cd7d0ac5-0b18-4a64-9c87-095d4921f1e3" name="double getinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bab1c9a4-821c-4c35-89d9-33001dd7bc04" />
+          </operation>
+          <operation Id="14070104-267e-4dff-a9c0-0fde213751c9" name="double calculatemonthlypayment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f1421fc0-be68-4b57-aaf5-2db47eb673eb" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="61a1aa2a-bb14-4652-93aa-132bae00d285" name="Toronto" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4e5c0261-0564-4af3-86d7-dde38ce43eeb" />
+        <ownedAttributesInternal>
+          <property Id="0085660e-f5b7-4183-a5a6-749fe1e0e3fd" name="double interestrate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="68429d70-dae8-4528-98a2-227ae84ae6d1" />
+          </property>
+          <property Id="49133db5-b061-4e0a-8ad3-3142df162112" name="double loan" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d96c166c-2e6d-4eea-9ef5-c20c8dfb1ef8" />
+          </property>
+          <property Id="81cdb847-671a-4110-9a95-0d704f137eba" name="int numyears" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="80e84889-0153-4197-8c5f-2fbd276fbd3b" />
+          </property>
+          <property Id="823c2d2c-bea0-482d-b0b7-1559f4f6ff22" name="double monthlypayment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="54ce422d-2ff8-4966-a539-20723cc37bf6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="956c36e4-ac2e-4a3b-8c2d-2ebb1d92c4af" name="Seattle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a05518ec-3a48-4af4-98c9-ac23fa87f816" />
+          </operation>
+          <operation Id="c11c23f1-4e18-46a2-a0e7-0c4f6f540268" name="void setinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="23c125ae-3487-4085-a223-92f5e5d34488" />
+          </operation>
+          <operation Id="05e4c72a-aa92-460c-9753-b8c503a33df8" name="double getinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="35b23cdc-e894-438d-989a-637961cac83b" />
+          </operation>
+          <operation Id="a859aede-91cc-4902-acb7-40d8846ceddd" name="double calculatemonthlypayment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff78858e-2ee3-43bd-af02-d7f1268ee75c" />
+          </operation>
+          <operation Id="6b417f2d-c1df-4a84-88a0-594567c09010" name="double convertcurrency" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bd6fba4c-44b3-40dd-b49f-04c1a158f1be" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="334d60ee-6223-487d-bca7-16c75358efc6" name="Tokyo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="37b83f4e-1c4f-45c4-8ce4-5ef56b8f3e5c" />
+        <ownedAttributesInternal>
+          <property Id="8bc18ac8-2b68-482a-a957-c4ed5ae51ccd" name="double interestrate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="12e7de0b-27c1-44ac-adbe-aa7847fb116f" />
+          </property>
+          <property Id="13e646b1-dfc5-4fe5-b6fa-e34ec7833712" name="double loan" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="37d7d3c5-cd32-4d98-9b48-4197124d0292" />
+          </property>
+          <property Id="4d0ef776-069b-43d2-9c64-510b1bec5576" name="int numyears" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6518acfa-9b55-4cb2-956a-214e3f4b5250" />
+          </property>
+          <property Id="e1132b60-3636-412b-989e-11a02d59ecd0" name="double monthlypayment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="791be5ce-4466-4d8a-bdd8-ce3b1f7bde96" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d7460675-f92f-4fce-b725-878b955f3d29" name="Seattle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3eb6aefd-dc05-44bc-95d5-40ae3e61319a" />
+          </operation>
+          <operation Id="9a5afbef-e4b5-46ec-b273-2040044ef1e0" name="void setinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4f7db847-5c77-4cfb-9508-075a52bb2d8b" />
+          </operation>
+          <operation Id="8512c71f-f74a-4f40-8f68-3a9f9005ccae" name="double getinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="06a60b74-b193-4a94-afa4-f5d8a3cbb0b5" />
+          </operation>
+          <operation Id="1e144b50-1aa5-4002-8434-50eaa31d4237" name="double calculatemonthlypayment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fea133ba-3631-468e-8ac4-100efa129354" />
+          </operation>
+          <operation Id="9c674119-be6f-40a4-a986-c71e34b24a66" name="double convertcurrency" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="46c210aa-c043-48b0-bbba-da111176b3ee" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f5d66da3-e600-432b-bf05-8e02ab929df5" name="Paramaribo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="077f30c7-649a-44a9-aa3e-8969c8c12f4b" />
+        <ownedAttributesInternal>
+          <property Id="0ed24a48-3ffe-4976-9f26-646bf6d7e947" name="double interestrate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dcc54a45-ed61-4094-8fba-5a4880811f2c" />
+          </property>
+          <property Id="5ee4f7f3-0439-4ff1-9472-d003cf1f6e71" name="double loan" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="13196b44-6427-4b74-95ec-fc35e01b3ebf" />
+          </property>
+          <property Id="8b092135-868e-455f-84ec-43470e54255c" name="int numyears" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc45344c-89cd-46b5-9535-10fe7a104524" />
+          </property>
+          <property Id="dcf87b0a-931e-435d-9faa-9585ba499adb" name="double monthlypayment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f13cd99e-c882-4040-94ae-4a9d6f535521" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="3d9bd8eb-6d9e-46bf-aa64-56cbc54c0302" name="Seattle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c3f69968-0423-4ee9-8f7a-90a552cf1f6c" />
+          </operation>
+          <operation Id="5a1d85b9-7b3b-454b-b794-a6b1ec70ae90" name="void setinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="64c17d02-a1f0-4ef4-bd83-b43d2e60cb45" />
+          </operation>
+          <operation Id="5f217f93-5448-4f13-ae33-171b8a4cb3e9" name="double getinterestrate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="360923d3-250b-4b8b-a6d1-a0900473e2e1" />
+          </operation>
+          <operation Id="e8c2a80e-549f-464d-9e8a-524c456c98cb" name="double calculatemonthlypayment" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff5f98ae-c7f2-4286-9ec4-aaee0396b85d" />
+          </operation>
+          <operation Id="0932ead6-dfc0-445e-98bf-0af644a4f3de" name="double convertcurrency" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="56c375de-22a2-425e-a7a9-d4b851cf8810" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="af4faf29-80eb-45b4-9673-7decee3bf932" name="UML Final Project">
+    <elementDefinition Id="ac57b5f2-37ba-483f-8ccd-63d78fc524c2" />
+  </package>
+</logicalClassDesignerModel>
